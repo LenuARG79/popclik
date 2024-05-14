@@ -215,6 +215,73 @@ footer {
     font-size: 30px;
 }
 /*fin footer*/
+/*Nosotros*/
+.nosotros {
+    background-color: #61c2d0;
+    width: 100vw;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nosotros h2 {
+    font-size: 18px;
+    color: white;
+    
+}
+.p-nos {
+    margin-top: 10px;
+    padding: 15px;
+}
+/*fin Nosotros*/
+/*Productos*/
+.h3-categorias {
+    text-align: center;
+    color: #999999;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-right: 25px;
+}
+.categorias-productos {
+    width: 100vw;
+    height: 20vh;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.hr-cat {
+    height: 1px;
+    width: 100%;
+    color: #999999;
+    margin-top: 20px;
+}
+/*paginas productos categiria inicio*/
+.categoria-volver {
+    display: flex;
+    justify-content: space-between;
+
+}
+.volver {
+    text-align: left;
+    color: #999999;
+    font-size: 16px;
+    margin-top: 14px;
+    padding-left: 10px;
+}
+/*paginas productos categiria fin*/
+/*acc celulares productos inicio*/
+.acc-celulares {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 100px);
+}
+/*acc celulares productos fin*/
+/*contacto inicio*/
+
+/*contact fin/*
+
 /*media queris*/
 @media (min-width:768px) {
     .btn-menu {
