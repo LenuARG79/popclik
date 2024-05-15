@@ -279,7 +279,41 @@ footer {
 }
 /*acc celulares productos fin*/
 /*contacto inicio*/
-
+.formulario {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.input {
+    background-color: gainsboro;
+    border: none;
+    height: 30px;
+    padding-left: 8px;
+    font-size: 14px;
+    border-radius: 15px;    
+}
+.input-text {
+    background-color: gainsboro;
+    border: none;
+    padding-left: 8px;
+    padding-top: 5px;
+    font-size: 14px;
+    border-radius: 15px;
+}
+#submit_button {
+    width: 70px;
+    height: 30px;
+    margin-bottom: 15px;
+    background-color: #61c2d0;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
 /*contact fin/*
 
 /*media queris*/
@@ -300,20 +334,18 @@ footer {
         margin-top: 25px;
         margin-right: 40px;
 }
-     .fa-facebook {
-       color: #999999;
-       font-size: 20px;
-       border-left: 1px solid #999999;
-       padding-left: 8px;
-       
+        .fa-facebook {
+        color: #999999;
+        font-size: 20px;
+        border-left: 1px solid #999999;
+        padding-left: 8px;
 }
-     .fa-instagram {
-       color: #999999;
-       font-size: 20px;
-       border-right: 1px solid #999999;
-       padding-right: 8px;
-
-    }
+        .fa-instagram {
+        color: #999999;
+        font-size: 20px;
+        border-right: 1px solid #999999;
+        padding-right: 8px;
+}
     .menu-pc {
         display: block;
     }
@@ -351,61 +383,69 @@ footer {
         grid-gap: 20px;
         font-family: arial;
         text-decoration: none;
-   }
-      .img-categorias div a i {
-       color: #61c2d0;
-       font-size: 100px;
-   }
-      .img-categorias div a i:hover {
-       color: #61c2d0;
-       font-size: 110px; 
-       transition: 0.3s;   
-   }
-   .fa-square-whatsapp {
+}
+        .img-categorias div a i {
+        color: #61c2d0;
+        font-size: 100px;
+}
+        .img-categorias div a i:hover {
+        color: #61c2d0;
+        font-size: 110px; 
+        transition: 0.3s;   
+}
+    .fa-square-whatsapp {
     font-size: 60px;
+}
+.formulario {
+    margin-left: 150px;
+    margin-right: 150px;
 }
 }
 @media (min-width:576px) and (max-width:767px){
     .p-menu {
-      visibility: visible;
+        visibility: visible;
 }
-   .social-icon {
-     display: flex;
-     flex-direction: row;
-     margin-top: 25px;
+    .social-icon {
+        display: flex;
+        flex-direction: row;
+        margin-top: 25px;
 }
-   .fa-facebook {
+    .fa-facebook {
     color: #999999;
     font-size: 20px;
     border-left: 1px solid #999999;
     padding-left: 8px;
     
 }
-   .fa-instagram {
+    .fa-instagram {
     color: #999999;
     font-size: 20px;
     border-right: 1px solid #999999;
     padding-right: 8px;
 }
     .img-categorias {
-     display: grid; 
-     grid-template-columns: 1fr 1fr;
-     grid-template-rows: repeat(2, 120px);
-     margin-top: 35px;
-     grid-gap: 20px;
-     font-family: arial;
-     text-decoration: none;
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 120px);
+        margin-top: 35px;
+        grid-gap: 20px;
+        font-family: arial;
+        text-decoration: none;
 }
-   .img-categorias div a i {
+    .img-categorias div a i {
     color: #61c2d0;
     font-size: 100px;
 }
-   .img-categorias div a i:hover {
+    .img-categorias div a i:hover {
     color: #61c2d0;
     font-size: 110px; 
     transition: 0.3s;   
 }
 .fa-square-whatsapp {
     font-size: 50px;
+}
+.formulario {
+    margin-left: 85px;
+    margin-right: 85px;
 }
 }

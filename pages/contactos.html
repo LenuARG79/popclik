@@ -68,7 +68,21 @@
 <div class="nosotros">
     <h2>CONTACTANOS</h2>
 </div>
-
+<form class="formulario" id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+    <label class="required" for="name"></label><br/>
+    <input id="name" class="input" name="name" type="text" value="" size="30" placeholder="Ingrese su nombre" required/><br />
+    <span id="name_validation" class="error_message"></span>
+    <label class="required" for="email"></label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="Ingresa tu email" required/><br />
+    <span id="email_validation" class="error_message"></span>
+    <label class="required" for="tel"></label><br />
+    <input id="tel" class="input" name="tel" type="number" value="" size="30" placeholder="Ingresa tu número" required/><br />
+    <span id="tel_validation" class="error_message"></span>
+    <label class="required" for="message"></label><br />
+    <textarea id="message" class="input-text" name="message" rows="6" cols="34" placeholder="Ingresa tu mensaje"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+    <input id="submit_button" type="submit" value="Enviar"/>
+</form>
 <!--main fin -->
 <!--footer inicio-->
 <footer>
