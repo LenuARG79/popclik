@@ -374,6 +374,70 @@ h6 {
 .producto12 {
     background-image: url(img/productos/Brazalete-universal-para-celular.jpg);
 }
+.producto13 {
+    background-image: url(img/productos/POP005.png);
+}
+.producto14 {
+    background-image: url(img/productos/pop002.jpg);
+}
+.producto15 {
+    background-image: url(img/productos/USB-a-Tipo-C.jpg);
+}
+.producto16 {
+    background-image: url(img/productos/POP007.jpg);
+}
+.producto17 {
+    background-image: url(img/productos/POP128.jpg);
+}
+.producto18 {
+    background-image: url(img/productos/POP128-1.jpg);
+}
+.producto19 {
+    background-image: url(img/productos/cargador-12v.png);
+}
+.producto20 {
+    background-image: url(img/productos/Cargador-12v-3.1A.jpg);
+}
+.producto21 {
+    background-image: url(img/productos/comecables-para-celular.jpeg);
+}
+.producto22 {
+    background-image: url(img/productos/Parlante-MY575.jpg);
+}
+.producto23 {
+    background-image: url(img/productos/Parlante_MY272.jpg);
+}
+.producto24 {
+    background-image: url(img/productos/Receptor-bluetooth.jpg);
+}
+.producto25 {
+    background-image: url(img/productos/Selfie-Stick.jpg);
+}
+.producto26 {
+    background-image: url(img/productos/Smart-watch-D18.jpg);
+}
+.producto27 {
+    background-image: url(img/productos/Smart-watch-Y68.jpg);
+}
+.producto28 {
+    background-image: url(img/productos/manitos-soportes.jpg);
+}
+.producto29 {
+    background-image: url(img/productos/Soporte-auto.jpg)
+}
+.producto30 {
+    background-image: url(img/productos/soporte-bici-1.jpg);
+}
+.producto31 {
+    background-image: url(img/productos/Soporte-de-escritorio-para-celular.jpg);
+}
+.producto32 {
+    background-image: url(img/productos/soporte-portatil.jpg);
+}
+.producto33 {
+    background-image: url(img/productos/soporte-tobera.jpg);
+}
+
 /*fin Acc celulares categorias*/
 /*paginas*/
 .paginas {
@@ -389,7 +453,13 @@ h6 {
 .number:hover {
     color: #61c2d0;
 }
-.number:active {
+.number1 {
+    color: #61c2d0;
+}
+.number2 {
+    color: #61c2d0;
+}
+.number3 {
     color: #61c2d0;
 }
 /*fin paginas*/
