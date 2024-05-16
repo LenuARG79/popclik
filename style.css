@@ -375,7 +375,24 @@ h6 {
     background-image: url(img/productos/Brazalete-universal-para-celular.jpg);
 }
 /*fin Acc celulares categorias*/
-
+/*paginas*/
+.paginas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.number {
+    color: #999999;
+    letter-spacing: 15px;
+    font-size: 12px;
+}
+.number:hover {
+    color: #61c2d0;
+}
+.number:active {
+    color: #61c2d0;
+}
+/*fin paginas*/
 /*media queris*/
 @media (min-width:768px) {
     .btn-menu {
