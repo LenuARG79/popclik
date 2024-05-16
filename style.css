@@ -315,6 +315,66 @@ footer {
     letter-spacing: 1px;
 }
 /*contact fin/*
+/*Acc Celulares categorias*/
+h6 {
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    text-shadow: 0,0,0,#61c2d0;
+    margin-top: 5px;
+}
+.galeria-producto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 120px);
+    grid-gap: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.productos {
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+}
+.producto1 {
+    background-image: url(img/productos/adaptador-ligthning-a-3.5.jpg);
+}
+.producto2 {
+    background-image: url(img/productos/adaptador-USBc-a-3.5.jpg);
+}
+.producto3 { background-image: url(img/productos/adapatdor-OTG-USBa-a-USBc.jpg);
+
+}
+.producto4 {
+    background-image: url(img/productos/adptador-OTG-USBc-a-USBa.jpeg);
+}
+.producto5 {
+    background-image: url(img/productos/Anillo-para-celular.jpg);
+}
+.producto6 {
+    background-image: url(img/productos/Aro-de-Luz-soporte-celular.jpg);
+}
+.producto7 {
+    background-image: url(img/productos/Auiricular-BT-XT89.jpg);
+}
+.producto8 {
+    background-image: url(img/productos/Auricular-BT-XT91.jpg);
+}
+.producto9 {
+    background-image: url(img/productos/Auricular-HF130.jpg);
+}
+.producto10 {
+    background-image: url(img/productos/Auricular-HF170.jpg);
+}
+.producto11 {
+    background-image: url(img/productos/Auricular-ligthning.jpg);
+}
+.producto12 {
+    background-image: url(img/productos/Brazalete-universal-para-celular.jpg);
+}
+/*fin Acc celulares categorias*/
 
 /*media queris*/
 @media (min-width:768px) {
