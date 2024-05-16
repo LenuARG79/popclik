@@ -138,7 +138,7 @@ section {
     display: flex;
     justify-content: center;
 }
- hr {
+    hr {
     width: 20%;
     height: 2px;
     color: #999999;
