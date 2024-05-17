@@ -150,7 +150,6 @@ section {
 .categorias {
     background-color: #61c2d0;
     width: 100vw;
-    /*height: 20px;*/
     font-family: Arial;
     color: white;
     text-align: center;
@@ -437,6 +436,43 @@ h6 {
 .producto33 {
     background-image: url(img/productos/soporte-tobera.jpg);
 }
+.producto37 {
+    background-image: url(img/productos/Adaptador-2-MiniPlug-H-a-1-miniplug.jpg);
+}
+.producto38 {
+    background-image: url(img/productos/Adaptador-MiniPlug-H-a-2-miniplug.jpg);
+}
+.producto39 {
+    background-image: url(img/productos/adaptador-VGA-a-HDMI.jpg);
+}
+.producto40 {
+    background-image: url(img/productos/Auricular-Gamer.jpg);
+}
+.producto41 {
+    background-image: url(img/productos/Cable-red-1mts.jpg);
+}
+.producto42 {
+    background-image: url(img/productos/Cable-red-3mts.jpg);
+}
+.producto43 {
+    background-image: url(img/productos/Cable-red-5mts.jpg);
+}
+.producto44 {
+    background-image: url(img/productos/Cable-red-10mts.jpg);
+}
+.producto45 {
+    background-image: url(img/productos/Cable-USB-a-USB.jpg);
+}
+.producto46 {
+    background-image: url(img/productos/Cable-USB-macho-hembra.jpg);
+}
+.producto47 {
+    background-image: url(img/productos/Cable-VGA-a-VGA.jpeg);
+}
+.producto48 {
+    background-image: url(img/productos/Combo-mouse-y-teclado-comun.jpg);
+}
+
 
 /*fin Acc celulares categorias*/
 /*paginas*/
@@ -547,6 +583,21 @@ h6 {
     margin-left: 150px;
     margin-right: 150px;
 }
+.galeria-producto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 230px);
+    grid-gap: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.productos {
+    background-position: center;
+    background-size: cover;
+    height: 210px;
+}
 }
 @media (min-width:576px) and (max-width:767px){
     .p-menu {
@@ -594,5 +645,20 @@ h6 {
 .formulario {
     margin-left: 85px;
     margin-right: 85px;
+}
+.galeria-producto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: repeat(4, 230px);
+    grid-gap: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.productos {
+    background-position: center;
+    background-size: cover;
+    height: 210px;
 }
 }
