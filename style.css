@@ -150,7 +150,7 @@ section {
 .categorias {
     background-color: #61c2d0;
     width: 100vw;
-    height: 20vh;
+    /*height: 20px;*/
     font-family: Arial;
     color: white;
     text-align: center;
