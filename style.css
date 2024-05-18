@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-.fa-square-whatsapp {
+.whatsapp-pc {
+    visibility: hidden;
     position: fixed;
     color: #999999;
     font-size: 40px;
@@ -11,6 +12,15 @@
     bottom:60px;
     z-index: 4;
 }
+.whatsapp-mobil {
+    visibility: visible;
+    position: fixed;
+    color: #999999;
+    font-size: 40px;
+    right: 25px;
+    bottom:60px;
+    z-index: 4;
+    }
 /*header*/
 /*menu*/
 header {
@@ -535,7 +545,33 @@ h6 {
 .producto81 {
     background-image: url(img/productos/cable\ 2rca\ a\ miniplug.jpg);
 }
-
+.producto82 {
+    background-image: url(img/productos/cable\ 2rca\ a\ miniplug.jpg);
+}
+.producto83 {
+    background-image: url(img/productos/cable\ hdmi\ a\ hdami.jpg);
+}
+.producto85 {
+    background-image: url(img/productos/balanza\ cocina\ digital.jpg);
+}
+.producto86 {
+    background-image: url(img/productos/Balanza\ personal\ digital.jpg);
+}
+.producto87 {
+    background-image: url(img/productos/balanza-precision\ \(1\).jpg);
+}
+.producto88 {
+    background-image: url(img/productos/linterna\ tactica.jpg);
+}
+.producto89 {
+    background-image: url(img/productos/Luz\ de\ trabajo.jpg);
+}
+.producto90 {
+    background-image: url(img/productos/luces\ de\ bici\ recargables.jpg);
+}
+.producto91 {
+    background-image: url(img/productos/Reloj.jpg);
+}
 /*fin Acc celulares categorias*/
 /*paginas*/
 .paginas {
@@ -638,8 +674,12 @@ h6 {
         font-size: 110px; 
         transition: 0.3s;   
 }
-    .fa-square-whatsapp {
+    .whatsapp-pc {
     font-size: 60px;
+    visibility: visible;
+}
+.whatsapp-mobil {
+    visibility: hidden;
 }
 .formulario {
     margin-left: 150px;
@@ -701,8 +741,12 @@ h6 {
     font-size: 110px; 
     transition: 0.3s;   
 }
-.fa-square-whatsapp {
+.whatsapp-pc {
     font-size: 50px;
+    visibility: hidden;
+}
+.whatsapp-mobil {
+    visibility: visible;
 }
 .formulario {
     margin-left: 85px;
